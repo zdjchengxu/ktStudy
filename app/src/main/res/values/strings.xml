@@ -2,4 +2,5 @@
     <string name="app_name">KotlinStudy</string>
     <string name="title_activity_basic_data_type">BasicDataTypeActivity</string>
     <string name="title_activity_control_and_function">ControlAndFunctionActivity</string>
+    <string name="title_activity_class">ClassActivity</string>
 </resources>

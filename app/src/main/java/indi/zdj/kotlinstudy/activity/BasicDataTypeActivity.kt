@@ -68,6 +68,9 @@ class BasicDataTypeActivity : AppCompatActivity() {
         var char_Array: CharArray = charArrayOf('a', 'b', 'c')
         tv_char_array.text = "charArray : " + char_Array.toString()
 
+        //array
+        var test_array : Array<Int> = arrayOf(1,2,3,4,5)
+
         //随机数
         var rand = Random.nextInt(20)
         tv_random.text = "20以内的随机数：$rand"

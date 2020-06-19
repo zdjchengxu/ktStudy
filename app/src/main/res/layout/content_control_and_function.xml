@@ -18,6 +18,7 @@
         <Button
             android:id="@+id/btn_only_input"
             android:layout_width="wrap_content"
+            android:text="只有入参的函数"
             android:layout_height="wrap_content"/>
 
         <TextView
@@ -27,6 +28,23 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
 
+        <Button
+            android:id="@+id/btn_higher_fun"
+            android:text="调用高阶函数"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_higher_fun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
 
 </LinearLayout>
